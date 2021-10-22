@@ -1,0 +1,155 @@
+*{
+  margin:0;
+   padding:0;
+        
+        
+}
+
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color:#DFE0E0;
+   
+   
+}
+
+#zonetexte{
+    background-color: white;
+    display: flex;
+    width: 700px;
+    height: 90px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    border-radius: 40px;
+  
+   
+
+}
+
+#boiteen{
+    
+
+
+width: 700px;
+bottom: 0;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content:center;
+flex-direction: column;
+bottom: 0;
+height: auto;
+background-color:#DFE0E0;
+
+
+
+
+}
+
+#envoi{
+  
+    display: flex;
+    height: 30px;
+    width: 700px;
+    font-size: 15px;
+}
+
+.ensemble{
+   
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+   
+    
+    
+}
+
+#haut{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rep{
+    
+    
+	
+    height: 500px;
+	display: flex;
+	flex-direction: column;
+  
+    
+
+}
+#toutmsg{
+    
+overflow-y:scroll;
+overflow-x: hidden; 
+
+background-color: white;
+width:550px;
+margin-bottom: 15px;
+border-radius: 15px;
+border-style: solid;
+border-color: #9eced0;
+border-width: 5px;
+
+
+}
+
+
+
+.message{
+    display: flex; 
+    background-color:  #9eced0;
+    border-radius: 10px;
+    display: flex;
+    align-items:left;
+    justify-content:start;
+    flex-direction: column;
+    font-size : 14px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+
+.sessage{
+    display: flex;
+    background-color: #c2d165;
+    border-radius: 10px;
+    display: flex;
+    align-items:left;
+    justify-content:start;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 200px;
+
+}
+
+.infomsg{
+    font-size: 17px;
+    display: flex;
+    margin: 10px;
+}
+    
+
+
+.msg{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+
+

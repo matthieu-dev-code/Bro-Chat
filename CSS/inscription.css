@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+
+}
+
+.corps{
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color:#DFE0E0;
+    
+}
+
+
+
+.inscrip{
+    display:flex;
+    width: 325px;
+    height: 525px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid;
+    
+    
+    
+    
+    
+}
+
+.élément{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    
+
+}
+.Btn_inscrip{
+    display: flex;
+    background-color:#71D1C4;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 50px;
+    
+   
+    width: 240px;
+    height: 45px;
+    font-family:Impact, fantasy;
+    font-size: 15px;
+}
+
+#logo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+    
+    
+    
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.ccompte{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 325px;
+    height: 80px;
+    background-color: white;
+    border:1px solid;
+    font-family: Impact, fantasy;
+    
+}
+
+
+#err{
+    display: flex;
+    background-color: red;
+    width: 325px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#msg{
+    font-family: Impact, fantasy;
+    font-size: 23px;
+    border-radius: 1px;
+    text-align: center;
+    
+
+}

@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+     
+    
+
+}
+body{
+    background-color: #DFE0E0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tchat{
+
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+#boite{
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: row;
+    border-radius: 5px;
+    border: solid;
+    margin: 10px;
+}
+
+.ami{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+#envoie{
+
+display: flex;
+width: 30px;
+height: 30px;
+
+}
