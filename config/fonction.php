@@ -73,9 +73,9 @@ function vérifco($email,$mdp,$connexion){
             
                
 
-             //header("location:../chercherami.php");
+             header("location:../chercherami.php");
 
-             header("location:../config/vérifbar.php");
+            // header("location:../config/vérifbar.php");
 
             } else {
              header("location:../index.php?err=1");
