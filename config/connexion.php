@@ -5,7 +5,7 @@ $serveur="localhost";
 
 $user="matthieu";
 
-$password="789456Am%%%";
+$password="";
 
 $bdd="brochat";
 
